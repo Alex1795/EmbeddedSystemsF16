@@ -11,3 +11,16 @@ Every time a player looses it is eliminated. when only one player remains in the
 The inicializations of the microcontroller were implemented by Alejandro Tejada
 The PCB for the project was done by Rodolfo Leiva
 The software was developed by Mateo Vasquez and me.
+
+__________________________________________________________________________________________________________________
+
+The central part from the software is the Master array. This array represent every spot for each player in the game.
+This methos was implemented in order to control the LEDs in the game. The information was being passed using a SPI interface.
+The SPI was converted to parallel connections using three ATF22V10C PLDs in cascode configuration.
+The game included functions to select between two or three players and also to have a practice round.
+
+The final video can be seen at:
+
+https://www.youtube.com/watch?v=EN_Q6ers-bw&t=91s
+
+This project was presented on the Spark challenge at Purdue Universty on December 9th 2016.
